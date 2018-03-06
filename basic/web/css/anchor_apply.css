@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-4-28, 18:24:18
+    Author     : lenovo
+*/
+.anchor_index{
+    width: 100%;
+}
+.anchor_apply{
+    width: 70%;
+    padding: 0px 30px;
+    height: 600px;
+    margin: 0 auto;
+/*    background-color: #f7f7f7;*/
+    box-shadow: 15px 15px 15px #ccc;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+.anchor_head{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+/*    background-color: #fff;*/
+ font-size: 24px;
+}
+.apply_icon{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.anchor_content{
+   margin-top:  20px; 
+}
+.anchor_item{
+    margin: 10px 10px;
+}
+.anchor_item_img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #d7d7d7;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+.anchor_item_button{
+    margin: 0px 10px; 
+}
+.anchor_item_warning{
+    color: red;
+}
+.anchor_content_left{
+    float: left;
+    width: 48%;
+    height: 100%;
+    margin-left: 1%;
+/*    background-color: #f7f7f7;*/
+}
+.anchor_content_right{
+    float: right;
+    width: 48%;
+    height: 100%;
+    margin-right: 1%;
+/*    background-color: #f7f7f7;*/
+}
+.anchor_item_input{
+        width: 200px;
+/*    padding: 5px 5px 5px 10px;*/
+    background-color: #fff;
+    border-color: #d0d6d9;
+    box-shadow: 2px 0 5px 0 #fff;
+}
+.anchor_item_span{
+     display: inline-block;
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+}
+.anchor_footer{
+    width: 100%;
+    margin-top: 20px;
+/*    background-color: #f7f7f7;*/
+}
+.anchor_footer_textarea{
+    width: 98%;
+    height: 130px;
+    margin: 0 1%;
+    max-width: 98%;
+    max-height: 150px;
+}
+.anchor_footer_span{
+  display: inline-block;
+   margin: 10px 2%;
+}
+.anchor_submit{
+    width: 98%;
+    margin: 0 1%;
+    height: 50px;
+    position: relative;
+    
+}
+.anchor_submit_button{
+    width: 10%;
+    height: 30px;
+    position: absolute;
+    right: 45%;
+    bottom: 0;
+}
+.anchor_index_roomtype{
+    width: 200px;
+    
+}
+
+/*申请未通过start*/
+.home_content .anchorroom_status{
+    width: 100%;
+   
+}
+
+.home_content .anchorroom_status_body{
+     width: 100%;
+     height: 100%;
+/*     background-color: #ccc;*/
+}
+.anchorroom_status_head{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.home_content .anchorroom_status_write{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.anchorroom_status_body1{
+     width: 100%;
+      height: 450px;
+     position: relative;
+}
+.anchorroom_rejection_title{
+    font-size: 2rem;
+}
+.anchorroom_rejection_reason{
+   margin: 10px auto;
+    padding: 100px;
+    text-align: center;
+}
+.update_applyinfo{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color: #ff4646;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #fff;
+    right: 5%;
+}
+.update_applyinfo a{
+    text-decoration: none;
+    color: #fff;
+}
+.update_applyinfo a:link{
+    color: #fff;
+}
+.update_applyinfo a:hover{
+    color: #fff;
+}
+.update_applyinfo a:after{
+    color: #fff;
+}
+.update_applyinfo a:default{
+    color: #fff;
+}
+/*申请未通过end*/

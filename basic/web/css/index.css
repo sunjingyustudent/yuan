@@ -1,0 +1,283 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-4-21, 15:20:01
+    Author     : sunst
+*/
+*{
+        padding: 0px;
+        margin: 0px;
+    }
+    .warp{
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;  
+    }
+    .home_head{
+        width: 100%;
+        height:100px;
+        background-color: #000;
+    }
+    .home_head div{
+/*        display: inline-block;*/
+
+float: left;
+    }
+    .home_head_icon{
+        width: 50px;
+        height:50px;
+        vertical-align: middle;
+        position: relative;
+        top:25%;
+    }
+    .logo_icon{
+        width: 100%;
+        height:100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .home_head_title{
+        color: #fff;
+        line-height: 100px;
+        width: 20%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .home_head_nav{
+        width: 50%;
+        height:100%;
+        color: #fff;
+        text-align: center;
+    }
+    .home_head_nav ul{
+        display: block;
+        height: 100%;
+        list-style: none;
+    }
+    .home_head_nav ul li{
+        float: left;
+        width: 100px;
+        height: 100%;
+        line-height: 100px;
+    }
+    .home_head_nav ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .home_head_nav ul li a:after{
+        color: #fff;
+    }
+    .home_head_nav ul li a:link{
+         color: #fff;
+    }
+   
+    .home_head_search{
+        width: 15%;
+        height:70%;
+        border-bottom: 1px solid #ccc;
+    }
+    .home_head_search_input{
+        width: 70%;
+        position: relative;
+        top: 60%;
+        height: 40%;
+        border: none;
+        font-size: 1rem;
+        background-color: #000;
+        outline: none;
+        color: #fff;
+        display: inline-block;
+    }
+    .head_search{
+        display: inline-block;
+        width: 40px;
+        height:40%;
+        vertical-align: middle;
+        position: relative;
+        top:55%;
+    }
+    .home_head_login{
+        color: #fff;
+        width: 10%;
+        height: 100%;
+        line-height: 100px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .home_head_login a{
+        margin-right: 5px;
+        color: #fff;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    .home_wonderful{
+       background-color: #fff;
+       position: relative;
+    }
+    .index_apply_anchor{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        background-color: #ccc;
+        top:60px;
+        left:20px;
+        cursor: pointer;
+        animation: bling infinite 1.5s;
+        -moz-animation: bling infinite 1.5s;	/* Firefox */
+        -webkit-animation: bling infinite 1.5s;	/* Safari 和 Chrome */
+        -o-animation: bling infinite 1.5s;	/* Opera */
+    }
+    @keyframes bling
+    {
+        0%   {width:150px;height:100; left:40px; top:135px;}
+        60% {width:300px;height:200; left:20px; top:60px;}
+        100% {width:300px;height:200; left:20px; top:60px;}
+    }
+
+    @-moz-keyframes bling /* Firefox */
+    {
+       0%   {width:150px;height:100; left:40px; top:135px;}
+        60% {width:300px;height:200; left:20px; top:60px;}
+        100% {width:300px;height:200; left:20px; top:60px;}
+    }
+
+    @-webkit-keyframes bling /* Safari 和 Chrome */
+    {
+       0%   {width:150px;height:100; left:40px; top:135px;}
+        60% {width:300px;height:200; left:20px; top:60px;}
+        100% {width:300px;height:200; left:20px; top:60px;}
+    }
+
+    @-o-keyframes bling /* Opera */
+    {
+         0%   {width:150px;height:100; left:40px; top:135px;}
+        60% {width:300px;height:200; left:20px; top:60px;}
+        100% {width:300px;height:200; left:20px; top:60px;}
+    }
+    
+    
+    .index_apply_anchor_img{
+        width: 100%;
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .home_wonderful_video{
+ 		margin: 0px auto;
+ 		width: 800px;
+		height: 350px;
+		position: relative; 
+/*		border:5px solid #ccc;*/
+ 	}
+    .img_div img{
+ 		width: 800px;
+		height: 350px;
+		position: absolute;
+		display: none;
+ 	}
+    .num{
+ 		position: absolute;
+ 		right: 0px;
+ 		bottom: 0px;
+ 	}
+    .num span{
+		 display: block;
+                float:left;
+                width:30px;
+                height:30px;
+                line-height: 30px;
+                text-align: center;
+                color:#fff;
+                background: #ccc;
+                border: 1px solid #fff;
+                border-right:none;
+                cursor:pointer;
+	}
+    .home_wonderful_video .img_action{
+		display: block;
+	}
+    .num .span_action{
+		background-color: #999;
+	}
+    .home_video_box{
+        width: 100%;
+     background-color: #311c1c;   
+     }    
+    .home_video_box_nav{
+        margin: 0 auto;
+        width: 400px;
+        height:100px;
+        color: #000;
+        text-align: center;  
+        background-color: #311c1c;
+       
+        line-height: 100px;
+    }
+    .home_video_box_nav ul{
+        list-style: none;
+        color: #fff;
+    }
+    .home_video_box_nav ul li{
+        float: left;
+        font-size: 1.2rem;
+       width: 100px;
+       height: 100px;
+    }
+    .home_video_box_nav_a{
+        background-color: red;
+        padding: 4px 10px;
+        border-radius: 5px;
+    }
+    .home_video{
+        width: 1350px;
+        margin: 0 auto;
+/*        padding-top: 20px;*/
+        background-color: #f5f5f5;
+
+    }
+    .home_video_item{
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin-right: 50px;
+        margin-bottom: 70px;
+        margin-top: 20px;
+/*        box-shadow: 15px 15px 15px #999;*/
+    }
+    .home_video_item_video{
+        width: 200px;
+        height: 150px;
+        display: inline-block;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .home_video_item_icon{
+         border-radius: 10px 10px 0px 0px;
+        max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+        height:100%;
+    }
+    .home_video_item_info{
+        width: 200px;
+        height: 50px;
+        background-color: #180a0a;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .home_video_item_info span{
+       display: block; 
+       width: 200px;
+        height: 25px;
+        line-height: 25px;
+        padding-left: 10px;
+        color: #fff;
+    }
+    .home_video_item_info_title{
+        font-size: 1.7rem;
+        
+    }
+    
+   
+    

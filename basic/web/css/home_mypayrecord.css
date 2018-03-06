@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-5-16, 17:46:12
+    Author     : lenovo
+*/
+.home_mypayrecord_content{
+    width: 100%;
+    height: 600px;
+/*    background-color: #ccc;*/
+    position: relative;
+}
+.home_mypayrecord_content .home_mypayrecord_pagination1{
+    position: absolute;
+    bottom: 10px;
+    padding: 0 100px;
+}
+.home_mypayrecord_content .record_list{
+    width: 80%;
+    height: 500px;
+    left: 10%;
+
+}
+

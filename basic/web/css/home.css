@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-4-27, 17:56:03
+    Author     : lenovo
+*/
+.home_home{
+    width: 100%;
+    height: 100%;
+}
+.home_home .home_wrap{
+    width: 80%;
+    height: 95%;
+    margin: 2% auto;
+}
+.home_home .home_wrap div{
+    float: left;
+}
+.home_home .home_bar{
+    width: 29%;
+    height: 100%;
+    background-color: #999;
+    margin-right: 1%;
+}
+.home_home .home_content{
+     width: 70%;
+    height: 100%;
+    float: right;
+/*    background-color: #f7f7f7;*/
+border-top: 1px solid #f7f7f7;
+}
+.home_home .home_bar_head{
+    width: 100%;
+    height: 150px;
+    background-image: url('/images/logo_icon.png');
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+}
+.home_home .home_bar_head_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100rem;
+    position: absolute;
+    top: 10px;
+}
+.home_bar_head_bd_cover{
+    width: 100%;
+     height: 100%;
+    background-color: #000;
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+}
+.upload_head{
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #6f3636;
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    left: 30%;
+}
+.home_bar_item{
+    width: 100%;
+    height: 60px;
+    background-color: #f7f7f7;
+    line-height: 60px;
+   text-align: center;
+   border-bottom: 1px solid #fff;
+  font-size: 1.5rem;
+}
+.home_bar_focus_num div{
+    float: left;
+}
+.focus_num{
+    width: 49.5%;
+    height: 100%;
+}
+.favrite_num{
+    width: 49.5%;
+    height: 100%;  
+}
+.yincang{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.submit_head_img{
+    width: 100px;
+    color: #000;
+}
